@@ -4,4 +4,4 @@ RUN pip install requests
 
 RUN pip install --user healpy
 
-entrypoint ["ipython", "notebook"]
+entrypoint ["ipython"]

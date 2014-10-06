@@ -1,5 +1,9 @@
-## SciPy Docker Container
+## Python's Data Science Docker Toolbox
 ![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)
+
+
+
+Python Data Science Docker Toolbox's raison d'être is to quickly provide a Python environment for doing data science. After pulling the Python Data Science Docker Toolbox, you are ready to aggregate and analyze your data without having to individually install packages like NumPy, Pandas, and Scikit-learn.
 
 ### General Installation 
 1. Install Docker https://docs.docker.com/installation/#installation

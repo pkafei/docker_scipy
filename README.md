@@ -13,13 +13,24 @@ Python Data Science Docker Toolbox's raison d'être is to quickly provide a Pyth
 `docker pull pkafei/docker_scipy2`
 
 
-#### Using IPython in the terminal
-A. After building, access the image by entering 'docker run -it --rm -p 8888:8888 pkafei/docker_scipy2' in the terminal
-`docker run -it pkafei/docker_scipy`
+### Using Python Data Science Docker Toolbox
+1. In order to access docker's terminal, enter 'docker run -it --rm --entrypoint=/bin/bash pkafei/docker_scipy'
+You are now inside the Python Data Science Docker Toolbox
+`docker run -it --rm --entrypoint=/bin/bash pkafei/docker_scipy`
 
-#### Using IPython Notebook (IPython Notebook feature still under development)
-B. To run IPython Notebook in the browser enter '192.168.59.103:8888/' in the browser
-`192.168.59.103:8888/` 
+2. Use the docker terminal just like you would on your host machine:
+
+Access Python 2 or 3 Interpreter
+
+'root@81f68cb864cd:/srv/ipython# python'
+
+'root@81f68cb864cd:/srv/ipython# python3'
+
+Access IPython 2 or 3
+
+'root@81f68cb864cd:/srv/ipython# ipython2'
+
+'root@81f68cb864cd:/srv/ipython# ipython'
 
 
 ## What's inside the container?

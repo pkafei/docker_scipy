@@ -20,17 +20,17 @@ You are now inside the Python Data Science Docker Toolbox
 
 2. Use the docker terminal just like you would on your host machine:
 
-Access Python 2 or 3 Interpreter
+#### Access Python 2 or 3 Interpreter
 
-'root@81f68cb864cd:/srv/ipython# python'
+`root@81f68cb864cd:/srv/ipython# python`
 
-'root@81f68cb864cd:/srv/ipython# python3'
+`root@81f68cb864cd:/srv/ipython# python3`
 
-Access IPython 2 or 3
+#### Access IPython 2 or 3
 
-'root@81f68cb864cd:/srv/ipython# ipython2'
+`root@81f68cb864cd:/srv/ipython# ipython2`
 
-'root@81f68cb864cd:/srv/ipython# ipython'
+`root@81f68cb864cd:/srv/ipython# ipython`
 
 
 ## What's inside the container?

@@ -1,4 +1,4 @@
-## Python's Data Science Docker Toolbox
+## Python Data Science Docker Toolbox
 ![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)
 
 
@@ -14,9 +14,9 @@ Python Data Science Docker Toolbox's raison d'être is to quickly provide a Pyth
 
 
 ### Using Python Data Science Docker Toolbox
-1. In order to access docker's terminal, enter 'docker run -it --rm --entrypoint=/bin/bash pkafei/docker_scipy'
+1. In order to access docker's terminal, enter 'docker run -it --rm --entrypoint=/bin/bash -v /tmp:/tmp pkafei/docker_scipy'
 You are now inside the Python Data Science Docker Toolbox
-`docker run -it --rm --entrypoint=/bin/bash pkafei/docker_scipy`
+`docker run -it --rm --entrypoint=/bin/bash -v /tmp:/tmp pkafei/docker_scipy`
 
 2. Use the docker terminal just like you would on your host machine:
 
@@ -32,6 +32,8 @@ You are now inside the Python Data Science Docker Toolbox
 
 `root@81f68cb864cd:/srv/ipython# ipython`
 
+3. Save your work inside the tmp folder. You can 'cd' into it from root.
+`root@81f68cb864cd:/srv/ipython# cd /tmp`
 
 ## What's inside the container?
 A docker container with SciPy packages which includes:
